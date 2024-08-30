@@ -1,0 +1,59 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #e9ecef;
+    padding: 10%;
+    height: 60%;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 5%;
+}
+main {
+    margin: 20px 0;
+}
+
+.notification-settings, .notifications {
+    margin-bottom: 20px;
+}
+
+.notification-settings h2, .notifications h2 {
+    color: #333;
+}
+
+.notification-settings form {
+    display: flex;
+    flex-direction: column;
+}
+
+.notification-settings label {
+    margin-bottom: 10px;
+}
+
+.notification-settings button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 30%;
+}
+
+.notification-settings button:hover {
+    background-color: #0056b3;
+}
+
+.notifications ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.notifications li {
+    background: #e9ecef;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
